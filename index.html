@@ -26,7 +26,10 @@
       function cl() {
           document.getElementById("w").innerHTML = ""
       };
-  </script>
+    </script>
+    <style>
+        .footer {position: absolute;right: 0;bottom: 0;left: 0;padding: 5px;}
+    </style>
   </head>
   <body>
     output as:
@@ -41,5 +44,6 @@
     <input type="button" value="clear" onclick="cl()">
 
     <div id="w"></div>
+    <div class="footer">inspired by emu8086 built-in calculator & expression evaluator</div>
   </body>
 </html>
